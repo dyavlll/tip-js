@@ -1,0 +1,38 @@
+Общий сценарий
+Исходные задачи: [{"id":1,"title":"Изучить функции","completed":true,"priority":"medium"},{"id":4,"title":"Подготовить модель задач","completed":false,"priority":"high"},{"id":7,"title":"Проверить методы массивов","completed":false,"priority":"low"},{"id":10,"title":"Оформить README","completed":true,"priority":"medium"}]
+Названия: [
+  'Изучить функции',
+  'Подготовить модель задач',
+  'Проверить методы массивов',
+  'Оформить README'
+]
+Невыполненные: [ 4, 7 ]
+Исходный набор {"ids":[1,4,7,10],"total":4,"completed":2,"pending":2,"progress":50,"progressText":"50.0%"}
+Добавление {"ids":[1,4,7,10,20],"total":5,"completed":2,"pending":3,"progress":40,"progressText":"40.0%"}
+Выполнение {"ids":[1,4,7,10,20],"total":5,"completed":3,"pending":2,"progress":60,"progressText":"60.0%"}
+Переименование {"ids":[1,4,7,10,20],"total":5,"completed":3,"pending":2,"progress":60,"progressText":"60.0%"}
+Удаление {"ids":[1,4,10,20],"total":4,"completed":3,"pending":1,"progress":75,"progressText":"75.0%"}
+Обработанный отказ: Этот id уже существует
+Повторный id {"ids":[1,4,10,20],"total":4,"completed":3,"pending":1,"progress":75,"progressText":"75.0%"}
+Итоговые задачи: [{"id":1,"title":"Изучить функции","completed":true,"priority":"medium"},{"id":4,"title":"Подготовить модель задач","completed":true,"priority":"high"},{"id":10,"title":"Подготовить инструкцию запуска","completed":true,"priority":"medium"},{"id":20,"title":"Добавить проверку","completed":false,"priority":"high"}]
+Исходный массив сохранён: true
+Индивидуальный вариант 3
+Исходные задачи: [{"id":11,"title":"Определить разделы портфолио","completed":true,"priority":"high"},{"id":23,"title":"Подготовить макет главной страницы","completed":true,"priority":"medium"},{"id":37,"title":"Собрать карточки проектов","completed":false,"priority":"low"},{"id":41,"title":"Добавить сведения об авторе","completed":false,"priority":"medium"},{"id":58,"title":"Проверить мобильную верстку","completed":false,"priority":"high"},{"id":64,"title":"Опубликовать сайт-портфолио","completed":false,"priority":"low"}]
+Названия: [
+  'Определить разделы портфолио',
+  'Подготовить макет главной страницы',
+  'Собрать карточки проектов',
+  'Добавить сведения об авторе',
+  'Проверить мобильную верстку',
+  'Опубликовать сайт-портфолио'
+]
+Невыполненные: [ 37, 41, 58, 64 ]
+Исходный набор {"ids":[11,23,37,41,58,64],"total":6,"completed":2,"pending":4,"progress":33.33333333333333,"progressText":"33.3%"}
+Добавление {"ids":[11,23,37,41,58,64,80],"total":7,"completed":2,"pending":5,"progress":28.57142857142857,"progressText":"28.6%"}
+Выполнение {"ids":[11,23,37,41,58,64,80],"total":7,"completed":2,"pending":5,"progress":28.57142857142857,"progressText":"28.6%"}
+Переименование {"ids":[11,23,37,41,58,64,80],"total":7,"completed":2,"pending":5,"progress":28.57142857142857,"progressText":"28.6%"}
+Удаление {"ids":[11,23,41,58,64,80],"total":6,"completed":2,"pending":4,"progress":33.33333333333333,"progressText":"33.3%"}
+Обработанный отказ: Этот id уже существует
+Повторный id {"ids":[11,23,41,58,64,80],"total":6,"completed":2,"pending":4,"progress":33.33333333333333,"progressText":"33.3%"}
+Итоговые задачи: [{"id":11,"title":"Определить разделы портфолио","completed":true,"priority":"high"},{"id":23,"title":"Уточнить макет главной страницы","completed":true,"priority":"medium"},{"id":41,"title":"Добавить сведения об авторе","completed":false,"priority":"medium"},{"id":58,"title":"Проверить мобильную верстку","completed":false,"priority":"high"},{"id":64,"title":"Опубликовать сайт-портфолио","completed":false,"priority":"low"},{"id":80,"title":"Проверить доступность портфолио","completed":false,"priority":"low"}]
+Исходный массив сохранён: true

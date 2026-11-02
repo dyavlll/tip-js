@@ -1,0 +1,8 @@
+<!doctype html><html lang="ru"><meta charset="utf-8"><title>КР2 · 1. Проверка названия задачи</title>
+<style>body{font:18px Arial;margin:40px;max-width:1050px;color:#172536;background:#f5f7fa}h1{font-size:27px}pre{white-space:pre-wrap;background:white;border:1px solid #d3dbe4;border-radius:8px;padding:22px;font:17px/1.5 Consolas,monospace}small{color:#526478}</style>
+<h1>КР2 · 1. Проверка названия задачи</h1><small>Фактический запуск JavaScript в браузере · исходные модули проекта</small><pre id="output"></pre>
+<script type="module">
+const output = document.querySelector('#output');
+window.print = (...values) => { output.textContent += values.map(v => typeof v === 'string' ? v : JSON.stringify(v,null,2)).join(' ') + '\n'; };
+try { await import('./kr2-1.js'); } catch (error) { print('ОШИБКА:',error.message); }
+</script></html>

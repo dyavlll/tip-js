@@ -1,0 +1,12 @@
+import assert from 'node:assert/strict';
+import { variantTasks } from './src/data.js';
+import { createTask, setTaskCompleted, getTaskStats, getPendingTasks } from './src/task-service.js';
+const task = createTask(Number.MAX_SAFE_INTEGER,'x'.repeat(100),'high');
+assert.equal(task.ok,true);
+const frozen = Object.freeze(variantTasks.map(t=>Object.freeze({...t})));
+const result=setTaskCompleted(frozen,64,true);
+assert.equal(result.ok,true);assert.notEqual(result.tasks[5],frozen[5]);assert.equal(frozen[5].completed,false);
+assert.equal(getTaskStats([]).progress,0);
+assert.notEqual(getPendingTasks(frozen),frozen);
+assert.equal(setTaskCompleted(frozen,Number.MAX_SAFE_INTEGER+1,true).ok,false);
+console.log('OK: id MAX_SAFE_INTEGER + название 100; замороженный вариант; пустая сводка; новая ссылка filter; небезопасный id');

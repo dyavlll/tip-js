@@ -1,0 +1,74 @@
+[
+  {
+    "level": "log",
+    "message": "Отсутствующий элемент: null",
+    "timestamp": "2026-11-02T12:14:19.313Z",
+    "url": "http://127.0.0.1:5500/practice-03/examples/dom-events.js"
+  },
+  {
+    "level": "log",
+    "message": "Пустая коллекция: 0",
+    "timestamp": "2026-11-02T12:14:19.314Z",
+    "url": "http://127.0.0.1:5500/practice-03/examples/dom-events.js"
+  },
+  {
+    "level": "log",
+    "message": "dataset.taskId: 23 string",
+    "timestamp": "2026-11-02T12:14:19.314Z",
+    "url": "http://127.0.0.1:5500/practice-03/examples/dom-events.js"
+  },
+  {
+    "level": "log",
+    "message": "Числовой id: 23",
+    "timestamp": "2026-11-02T12:14:19.314Z",
+    "url": "http://127.0.0.1:5500/practice-03/examples/dom-events.js"
+  },
+  {
+    "level": "log",
+    "message": "Исходная длина NodeList: 1",
+    "timestamp": "2026-11-02T12:14:19.314Z",
+    "url": "http://127.0.0.1:5500/practice-03/examples/dom-events.js"
+  },
+  {
+    "level": "log",
+    "message": "Старый NodeList: 1",
+    "timestamp": "2026-11-02T12:14:27.486Z",
+    "url": "http://127.0.0.1:5500/practice-03/examples/dom-events.js"
+  },
+  {
+    "level": "log",
+    "message": "Новый querySelectorAll: 2",
+    "timestamp": "2026-11-02T12:14:27.487Z",
+    "url": "http://127.0.0.1:5500/practice-03/examples/dom-events.js"
+  },
+  {
+    "level": "log",
+    "message": "Старый NodeList: 1",
+    "timestamp": "2026-11-02T12:14:27.758Z",
+    "url": "http://127.0.0.1:5500/practice-03/examples/dom-events.js"
+  },
+  {
+    "level": "log",
+    "message": "Новый querySelectorAll: 3",
+    "timestamp": "2026-11-02T12:14:27.758Z",
+    "url": "http://127.0.0.1:5500/practice-03/examples/dom-events.js"
+  },
+  {
+    "level": "log",
+    "message": "1. phase=1; target=lab-label; currentTarget=lab-card",
+    "timestamp": "2026-11-02T12:14:28.025Z",
+    "url": "http://127.0.0.1:5500/practice-03/examples/dom-events.js"
+  },
+  {
+    "level": "log",
+    "message": "2. phase=3; target=lab-label; currentTarget=lab-button",
+    "timestamp": "2026-11-02T12:14:28.025Z",
+    "url": "http://127.0.0.1:5500/practice-03/examples/dom-events.js"
+  },
+  {
+    "level": "log",
+    "message": "3. phase=3; target=lab-label; currentTarget=lab-card",
+    "timestamp": "2026-11-02T12:14:28.025Z",
+    "url": "http://127.0.0.1:5500/practice-03/examples/dom-events.js"
+  }
+]

@@ -1,0 +1,10 @@
+import { demoTasks } from "../practice-02/src/data.js";
+import { setTaskCompleted } from "../practice-02/src/task-service.js";
+const result = setTaskCompleted(demoTasks, 4, true);
+print("setTaskCompleted(demoTasks, 4, true)");
+print("ok:", result.ok);
+print("Исходная задача 4:", demoTasks.find(t => t.id === 4));
+print("Новая задача 4:", result.tasks.find(t => t.id === 4));
+print("Новый массив:", result.tasks !== demoTasks);
+print("Новый объект задачи:", result.tasks.find(t => t.id === 4) !== demoTasks.find(t => t.id === 4));
+print("setTaskCompleted(demoTasks, 777, true):", setTaskCompleted(demoTasks, 777, true));

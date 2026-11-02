@@ -1,0 +1,16 @@
+Исследование Response
+{"path":"/health","status":200,"ok":true,"contentType":"application/json; charset=utf-8","shape":"data{}"}
+{"path":"/tasks","status":200,"ok":true,"contentType":"application/json; charset=utf-8","shape":"data[]"}
+{"path":"/tasks?completed=false&priority=high","status":200,"ok":true,"contentType":"application/json; charset=utf-8","shape":"data[]"}
+{"path":"/tasks/25","status":200,"ok":true,"contentType":"application/json; charset=utf-8","shape":"data{}"}
+{"path":"/tasks/999","status":404,"ok":false,"contentType":"application/json; charset=utf-8","shape":"error{}"}
+{"path":"/categories","status":200,"ok":true,"contentType":"application/json; charset=utf-8","shape":"data[]"}
+Замер 1: последовательно 165.6 мс; Promise.all 85.0 мс
+Замер 2: последовательно 178.8 мс; Promise.all 83.1 мс
+Замер 3: последовательно 182.2 мс; Promise.all 84.9 мс
+Тайм-аут: timeout
+Внешняя отмена: aborted
+Собственные фильтры high + completed=true + categoryId=2: [ 16, 25 ]
+Неверная категория: http 400
+Отмена до запроса: aborted
+Вариант 3: [ 4, 13, 16, 25, 34 ] meta.total: 5

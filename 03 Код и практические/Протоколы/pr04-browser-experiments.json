@@ -1,0 +1,25 @@
+[
+  {
+    "experiment": 1,
+    "actual": {
+      "submitCount": 0,
+      "valid": false
+    }
+  },
+  {
+    "experiment": 2,
+    "actual": "submit получен, но прикладная проверка отклонила значение."
+  },
+  {
+    "experiment": 3,
+    "actual": "submit.defaultPrevented: true\ntypeof FormData title: string\ntypeof localStorage value: string\n{\n  \"value\": {\n    \"title\": \"Портфолио\",\n    \"priority\": \"low\"\n  },\n  \"serialized\": \"{\\\"title\\\":\\\"Портфолио\\\",\\\"priority\\\":\\\"low\\\"}\"\n}"
+  },
+  {
+    "experiment": 4,
+    "actual": "JSON прочитан успешно:\n{\n  \"raw\": \"{\\\"title\\\":\\\"Портфолио\\\",\\\"priority\\\":\\\"low\\\"}\",\n  \"parsed\": {\n    \"title\": \"Портфолио\",\n    \"priority\": \"low\"\n  }\n}"
+  },
+  {
+    "experiment": 5,
+    "actual": "JSON.parse завершился ошибкой:\nExpected property name or '}' in JSON at position 1 (line 1 column 2)\n{\n  \"raw\": \"{broken-json\"\n}"
+  }
+]

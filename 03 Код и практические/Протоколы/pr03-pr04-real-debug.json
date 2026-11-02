@@ -1,0 +1,53 @@
+[
+  {
+    "practice": 3,
+    "event": {
+      "target": "lab-label",
+      "currentTarget": "lab-button",
+      "phase": 3
+    }
+  },
+  {
+    "practice": 4,
+    "success": {
+      "draft": {
+        "id": "20",
+        "title": "  Изучить localStorage  ",
+        "priority": "high"
+      },
+      "checked": {
+        "ok": true,
+        "value": {
+          "id": 20,
+          "title": "Изучить localStorage",
+          "priority": "high"
+        }
+      },
+      "result": {
+        "ok": true,
+        "added": {
+          "id": 20,
+          "title": "Изучить localStorage",
+          "completed": false,
+          "priority": "high"
+        }
+      }
+    }
+  },
+  {
+    "practice": 4,
+    "failure": {
+      "draft": {
+        "id": "4",
+        "title": "Дубликат",
+        "priority": "medium"
+      },
+      "checked": {
+        "ok": false,
+        "errors": {
+          "id": "Этот id уже существует."
+        }
+      }
+    }
+  }
+]
